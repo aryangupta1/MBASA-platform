@@ -17,7 +17,7 @@ const footerLinks = [
   {
     heading: "Connect",
     links: [
-      { href: "https://linkedin.com", label: "LinkedIn" },
+      { href: "https://www.linkedin.com/company/usyd-mba-tds-student-association/", label: "LinkedIn" },
       { href: "https://instagram.com", label: "Instagram" },
       { href: "mailto:mbasa@usyd.edu.au", label: "Email Us" },
       { href: "/contact", label: "Contact Form" },
@@ -56,7 +56,7 @@ export default function Footer() {
               MBASA builds an inclusive community, empowers professional success, and connects students, alumni, and partners.
             </p>
             <div className="flex gap-3 mt-5">
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+              <a href="https://www.linkedin.com/company/usyd-mba-tds-student-association/" target="_blank" rel="noopener noreferrer"
                 className="p-2 rounded bg-white/10 hover:bg-[#89cff0]/20 transition-colors" aria-label="LinkedIn">
                 <Linkedin size={16} />
               </a>

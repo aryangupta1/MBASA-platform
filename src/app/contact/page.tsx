@@ -138,13 +138,13 @@ export default function Contact() {
                     <p className="text-sm text-white/70 group-hover:text-[#89cff0] transition-colors font-[family-name:var(--font-archivo)]">mbasa@usyd.edu.au</p>
                   </div>
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="flex items-start gap-3 group">
+                <a href="https://www.linkedin.com/company/usyd-mba-tds-student-association/" target="_blank" rel="noopener noreferrer" className="flex items-start gap-3 group">
                   <div className="w-8 h-8 rounded-lg bg-[#89cff0]/10 flex items-center justify-center shrink-0">
                     <Linkedin size={14} className="text-[#89cff0]" />
                   </div>
                   <div>
                     <p className="text-[10px] uppercase tracking-widest text-white/30 font-[family-name:var(--font-archivo)]">LinkedIn</p>
-                    <p className="text-sm text-white/70 group-hover:text-[#89cff0] transition-colors font-[family-name:var(--font-archivo)]">linkedin.com/company/mbasa</p>
+                    <p className="text-sm text-white/70 group-hover:text-[#89cff0] transition-colors font-[family-name:var(--font-archivo)]">linkedin.com/company/usyd-mba-tds-student-association</p>
                   </div>
                 </a>
                 <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="flex items-start gap-3 group">
