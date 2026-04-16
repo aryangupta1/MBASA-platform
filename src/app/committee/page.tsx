@@ -55,7 +55,15 @@ const orgTree: OrgNode = {
       title: "Tech",
       subtitle: "Platform management, digital infrastructure, technical support.",
       children: [
-        { id: "it-officer", title: "IT Officer" },
+        {
+          id: "lead-swe",
+          title: "Lead Software Engineer",
+          person: "Aryan",
+          subtitle: "Technical guidance on platform. Continuing to contribute technically.",
+          children: [
+            { id: "it-officer", title: "IT Officer" },
+          ],
+        },
       ],
     },
     {
@@ -194,11 +202,14 @@ const executives = [
   { name: "Ben Khaydarov", role: "VP — Partnerships & Alliances", desc: "External co-ordination, strategic partnerships & channels. Internal–external alignment." },
   { name: "Adam Holczer", role: "VP — Operations", desc: "Internal coordination. Ensures all teams are aligned and delivering." },
   { name: "Mae Palafox", role: "General Secretary", desc: "Operations backbone — documentation, comms, governance. Keeps everything organised." },
+  { name: "Aryan", role: "Lead Software Engineer", desc: "Technical guidance on platform. Continuing to contribute technically as well." },
+  { name: "Oviya Balamurugan", role: "Committee Member", desc: "Contributing to MBASA's digital and community initiatives." },
+  { name: "Kanny P", role: "Committee Member", desc: "Contributing to MBASA's digital and community initiatives." },
 ];
 
 const departments = [
   { name: "Finance", focus: "Budget tracking, payments, funding coordination.", roles: ["Finance Officer"] },
-  { name: "Tech", focus: "Platform management, digital infrastructure, technical support.", roles: ["IT Officer"] },
+  { name: "Tech", focus: "Platform management, digital infrastructure, technical support.", roles: ["Lead Software Engineer: Aryan", "IT Officer"] },
   { name: "Operations", focus: "Owns ALL events. Responsible for execution quality.", roles: ["Events Manager", "Events Coordinator", "Program Lead"] },
   { name: "Marketing", focus: "Brand + growth. Owns LinkedIn presence.", roles: ["Social Media Officer", "Design + Branding", "Content & Comms Officer"] },
   { name: "External Relations", focus: "Sponsors, alumni relations, recruiters & companies, startup connections.", roles: ["Partnerships Officer", "Advisory Board (per stream)", "Careers / Opportunities Lead", "Alumni Relations Lead"] },
@@ -233,7 +244,7 @@ export default function Committee() {
             <p className="text-[#003152]/40 dark:text-white/30 text-xs uppercase tracking-[0.25em] font-semibold mb-3 font-[family-name:var(--font-archivo)]">Leadership</p>
             <h2 className="font-[family-name:var(--font-baskerville)] font-semibold text-[#003152] dark:text-white text-4xl sm:text-5xl tracking-[-0.04em]">Executive Committee</h2>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {executives.map(({ name, role, desc }) => (
               <div key={name} className="rounded-2xl bg-white dark:bg-white/5 border border-[#003152]/10 dark:border-white/10 p-7 hover:border-[#89cff0] hover:shadow-md transition-all">
                 <div className="w-14 h-14 rounded-full bg-[#003152] dark:bg-[#003152] flex items-center justify-center mb-5">
