@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  /* Figma exact colors */
+  --navy: #003152;
+  --navy-mid: #00253e;
+  --sky: #89cff0;
+  --sky-dark: #5ab8e0;
+  --white: #ffffff;
+  --off-white: #fafafa;
+  --text-dark: #161617;
+  --text-muted: #6b7280;
+  --border: #e5e7eb;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--off-white);
+  color: var(--text-dark);
+}
