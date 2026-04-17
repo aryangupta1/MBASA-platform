@@ -47,7 +47,7 @@ const fullValues = [
   },
   {
     title: "Professional Integrity",
-    desc: "We represent the MBASA brand. Every interaction with alumni, partners, and the public reflects the caliber of our members.",
+    desc: "We represent the MBADTSA brand. Every interaction with alumni, partners, and the public reflects the caliber of our members.",
   },
   {
     title: "Boundary Pushing Innovation",
@@ -62,14 +62,14 @@ export default function About() {
       <section className="bg-[#003152] pt-28 pb-20">
         <div className="max-w-5xl mx-auto px-6 lg:px-10">
           <p className="text-[#89cff0]/60 text-xs uppercase tracking-[0.2em] font-semibold mb-4 font-[family-name:var(--font-archivo)]">
-            About MBASA
+            About MBADTSA
           </p>
           <h1 className="font-[family-name:var(--font-baskerville)] font-semibold text-white text-5xl sm:text-6xl leading-tight tracking-[-0.04em] mb-6">
             Who we are &amp;<br />
             <span className="text-[#89cff0]">why we exist.</span>
           </h1>
           <p className="text-white/60 text-lg max-w-2xl leading-relaxed font-[family-name:var(--font-archivo)]">
-            MBASA — the MBA Digital &amp; Tech Student Association — is the one-stop hub for student comms, connection, and opportunities.
+            MBADTSA — the MBA Digital &amp; Tech Student Association — is the one-stop hub for student comms, connection, and opportunities.
           </p>
         </div>
       </section>
@@ -83,7 +83,7 @@ export default function About() {
               To create a digitally connected platform for MBA students and beyond.
             </h2>
             <p className="text-[#161617]/60 text-base leading-relaxed mb-4 font-[family-name:var(--font-archivo)]">
-              MBASA helps digital students navigate the business world and beyond — connecting students where information lives in one place, buddying students to learn from each other, and providing continuing education after the program.
+              MBADTSA helps digital students navigate the business world and beyond — connecting students where information lives in one place, buddying students to learn from each other, and providing continuing education after the program.
             </p>
             <p className="text-[#161617]/60 text-base leading-relaxed mb-6 font-[family-name:var(--font-archivo)]">
               We are the one-stop hub for student comms, connection, and opportunities — built to scale across cohorts and collaborate with other MBA bodies.

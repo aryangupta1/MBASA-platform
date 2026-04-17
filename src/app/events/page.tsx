@@ -20,7 +20,7 @@ const socialising = [
 ];
 
 const competitions = [
-  { name: "Faculty Case Competition", desc: "An MBASA-organised case competition open to the full MBA cohort, testing strategy and execution." },
+  { name: "Faculty Case Competition", desc: "An MBADTSA-organised case competition open to the full MBA cohort, testing strategy and execution." },
   { name: "Digital-Focused National Competition", desc: "Inspired by existing national competitions — a digital and tech focused challenge for MBA students across Australia." },
   { name: "Student Focus Groups", desc: "Collaborative problem-solving sessions where students work on real briefs from industry partners." },
 ];
@@ -38,7 +38,7 @@ export default function Events() {
             Events that <span className="text-[#89cff0]">elevate.</span>
           </h1>
           <p className="text-white/60 text-lg max-w-xl leading-relaxed font-[family-name:var(--font-archivo)]">
-            Every MBASA event is designed to provide immediate, tangible value — no fluff, just high-signal experiences. Pushing for more online events.
+            Every MBADTSA event is designed to provide immediate, tangible value — no fluff, just high-signal experiences. Pushing for more online events.
           </p>
         </div>
       </section>
@@ -53,11 +53,11 @@ export default function Events() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {[
               { tag: "Upskilling", title: "AI for Business Leaders", date: "May 2025", desc: "Hands-on workshop exploring practical AI applications for non-technical MBA students entering tech-adjacent roles." },
-              { tag: "Case Competition", title: "MBASA Strategy Hackathon", date: "June 2025", desc: "A 48-hour case competition challenging teams to develop go-to-market strategies for an early-stage tech startup." },
-              { tag: "Corporate Cocktails", title: "Alumni Connect Evening", date: "June 2025", desc: "A curated networking evening with MBASA alumni working across fintech, consulting, and product management." },
+              { tag: "Case Competition", title: "MBADTSA Strategy Hackathon", date: "June 2025", desc: "A 48-hour case competition challenging teams to develop go-to-market strategies for an early-stage tech startup." },
+              { tag: "Corporate Cocktails", title: "Alumni Connect Evening", date: "June 2025", desc: "A curated networking evening with MBADTSA alumni working across fintech, consulting, and product management." },
               { tag: "Digital Event", title: "Startup Founders Panel", date: "July 2025", desc: "Virtual fireside chat with three MBA graduates who built funded startups within five years of graduation." },
               { tag: "Orientation", title: "New Cohort Welcome & Mixer", date: "August 2025", desc: "The official onboarding experience — platform tour, team introductions, breakout rooms and social mixer." },
-              { tag: "Business Gala", title: "MBASA End of Year Gala", date: "November 2025", desc: "Our flagship annual event celebrating the cohort — professionally organised and thoroughly memorable." },
+              { tag: "Business Gala", title: "MBADTSA End of Year Gala", date: "November 2025", desc: "Our flagship annual event celebrating the cohort — professionally organised and thoroughly memorable." },
             ].map(({ tag, title, date, desc }) => (
               <div key={title} className="rounded-2xl bg-white border border-[#003152]/10 p-6 hover:border-[#89cff0] hover:shadow-md transition-all">
                 <div className="flex items-center justify-between mb-4">
@@ -157,7 +157,7 @@ export default function Events() {
                 <Globe size={18} className="text-[#89cff0]" />
               </div>
               <h3 className="font-[family-name:var(--font-baskerville)] font-semibold text-white text-xl mb-3">Digital Events</h3>
-              <p className="text-white/50 text-sm mb-4 font-[family-name:var(--font-archivo)]">MBASA is pushing for more online events — webinars, virtual panels, and digital socials accessible across locations and time zones. From podcast-style student interviews to online business showcases.</p>
+              <p className="text-white/50 text-sm mb-4 font-[family-name:var(--font-archivo)]">MBADTSA is pushing for more online events — webinars, virtual panels, and digital socials accessible across locations and time zones. From podcast-style student interviews to online business showcases.</p>
             </div>
           </div>
         </div>

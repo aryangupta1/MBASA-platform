@@ -36,7 +36,7 @@ export default function Footer() {
               <div className="relative w-10 h-10 shrink-0">
                 <Image
                   src="/images/mbasa-logo.png"
-                  alt="MBASA Logo"
+                  alt="MBADTSA Logo"
                   fill
                   className="object-contain"
                   sizes="40px"
@@ -53,7 +53,7 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-white/50 text-sm leading-relaxed max-w-xs font-[family-name:var(--font-archivo)]">
-              MBASA builds an inclusive community, empowers professional success, and connects students, alumni, and partners.
+              MBADTSA builds an inclusive community, empowers professional success, and connects students, alumni, and partners.
             </p>
             <div className="flex gap-3 mt-5">
               <a href="https://www.linkedin.com/company/usyd-mba-tds-student-association/" target="_blank" rel="noopener noreferrer"
@@ -92,7 +92,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-white/30 text-xs font-[family-name:var(--font-archivo)]">
-            © {new Date().getFullYear()} MBASA — MBA Student Association.
+            © {new Date().getFullYear()} MBADTSA — MBA Student Association.
           </p>
           <p className="text-white/30 text-xs font-[family-name:var(--font-archivo)]">
             Connect · Elevate · Scale

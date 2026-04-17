@@ -54,7 +54,7 @@ export default function Home() {
           <div className="relative mb-8" style={{ width: 247, height: 89 }}>
             <Image
               src="/images/mbasa-logo.png"
-              alt="MBASA"
+              alt="MBADTSA"
               fill
               className="object-contain object-left"
               sizes="247px"
@@ -63,14 +63,14 @@ export default function Home() {
 
           {/*
            * Figma: Archivo 48px weight=400, white, ls=-1.44, lh=48
-           * "MBASA builds an inclusive community, empowers professional success,
+           * "MBADTSA builds an inclusive community, empowers professional success,
            *  and connects students, alumni, and partners."
            */}
           <p
             className="font-[family-name:var(--font-archivo)] font-normal text-white max-w-2xl mb-10"
             style={{ fontSize: "clamp(1.5rem, 3vw, 3rem)", lineHeight: 1.1, letterSpacing: "-0.03em" }}
           >
-            MBASA builds an inclusive community, empowers professional success, and connects students, alumni, and partners.
+            MBADTSA builds an inclusive community, empowers professional success, and connects students, alumni, and partners.
           </p>
 
           {/*
@@ -134,7 +134,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 lg:px-10">
           <div className="text-center mb-14">
             <p className="text-[#89cff0]/50 text-xs uppercase tracking-[0.25em] font-semibold mb-3 font-[family-name:var(--font-archivo)]">
-              Why MBASA exists
+              Why MBADTSA exists
             </p>
             <h2 className="font-[family-name:var(--font-baskerville)] font-semibold text-white text-4xl sm:text-5xl tracking-[-0.04em]">
               The Problem
@@ -189,7 +189,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/contact" className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#003152] text-white font-semibold rounded hover:bg-[#00253e] transition-colors font-[family-name:var(--font-archivo)]">
-              Join MBASA <ArrowRight size={16} />
+              Join MBADTSA <ArrowRight size={16} />
             </Link>
             <Link href="/events" className="inline-flex items-center gap-2 px-7 py-3.5 border-2 border-[#003152]/30 text-[#003152] font-semibold rounded hover:bg-[#003152]/10 transition-all font-[family-name:var(--font-archivo)]">
               Upcoming Events

@@ -5,7 +5,7 @@ import { Mail, Linkedin, Instagram, Send } from "lucide-react";
 
 const reasons = [
   "General Enquiry",
-  "Join MBASA",
+  "Join MBADTSA",
   "Partnership / Sponsorship",
   "Event Collaboration",
   "Publications",

@@ -35,13 +35,13 @@ const articles = [
     category: "Opinion",
     title: "Why Digital Health Is the Blind Spot of Most MBA Programs",
     date: "March 2025",
-    desc: "A student opinion piece on the gap between MBA curricula and the booming digital health industry — and how MBASA is bridging it.",
+    desc: "A student opinion piece on the gap between MBA curricula and the booming digital health industry — and how MBADTSA is bridging it.",
   },
   {
     category: "Newsletter",
-    title: "MBASA Monthly — Issue 1",
+    title: "MBADTSA Monthly — Issue 1",
     date: "February 2025",
-    desc: "Inaugural newsletter: platform launch, upcoming events, committee introductions, and a spotlight on MBASA founding members.",
+    desc: "Inaugural newsletter: platform launch, upcoming events, committee introductions, and a spotlight on MBADTSA founding members.",
   },
   {
     category: "Guide",
@@ -53,7 +53,7 @@ const articles = [
     category: "Interview",
     title: "Founder Spotlight: Building Post-MBA",
     date: "December 2024",
-    desc: "Podcast-style interview with an MBASA alumni who built a funded health-tech startup within three years of graduation.",
+    desc: "Podcast-style interview with an MBADTSA alumni who built a funded health-tech startup within three years of graduation.",
   },
   {
     category: "Research",
@@ -143,7 +143,7 @@ export default function Publications() {
                 Volunteer editors wanted.
               </h2>
               <p className="text-white/60 leading-relaxed mb-4 font-[family-name:var(--font-archivo)]">
-                MBASA Publications is building a proper editorial board. Volunteer editors gain official certification for their work — a credential that travels with you beyond graduation.
+                MBADTSA Publications is building a proper editorial board. Volunteer editors gain official certification for their work — a credential that travels with you beyond graduation.
               </p>
               <p className="text-white/40 text-sm font-[family-name:var(--font-archivo)]">
                 We also welcome contributions: opinion pieces, class blogs, research summaries, and career guides. If you have a story worth telling, we want to publish it.

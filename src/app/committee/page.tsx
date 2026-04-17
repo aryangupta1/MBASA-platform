@@ -203,8 +203,8 @@ const executives = [
   { name: "Adam Holczer", role: "VP — Operations", desc: "Internal coordination. Ensures all teams are aligned and delivering." },
   { name: "Mae Palafox", role: "General Secretary", desc: "Operations backbone — documentation, comms, governance. Keeps everything organised." },
   { name: "Aryan", role: "Lead Software Engineer", desc: "Technical guidance on platform. Continuing to contribute technically as well." },
-  { name: "Oviya Balamurugan", role: "Committee Member", desc: "Contributing to MBASA's digital and community initiatives." },
-  { name: "Kanny P", role: "Committee Member", desc: "Contributing to MBASA's digital and community initiatives." },
+  { name: "Oviya Balamurugan", role: "Committee Member", desc: "Contributing to MBADTSA's digital and community initiatives." },
+  { name: "Kanny P", role: "Committee Member", desc: "Contributing to MBADTSA's digital and community initiatives." },
 ];
 
 const departments = [
@@ -232,7 +232,7 @@ export default function Committee() {
             The people who <span className="text-[#89cff0]">make it happen.</span>
           </h1>
           <p className="text-white/60 text-lg max-w-xl leading-relaxed font-[family-name:var(--font-archivo)]">
-            A student-led committee of MBA professionals — driving the MBASA mission across every pillar of the organisation.
+            A student-led committee of MBA professionals — driving the MBADTSA mission across every pillar of the organisation.
           </p>
         </div>
       </section>

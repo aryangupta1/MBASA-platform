@@ -42,7 +42,7 @@ export default function Navbar() {
             <div className="relative h-9 w-[108px]">
               <Image
                 src={isDark ? "/images/mbasa-logo.png" : "/images/mbasa-logo-nav.png"}
-                alt="MBASA"
+                alt="MBADTSA"
                 fill
                 priority
                 className="object-contain object-left"
