@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { Linkedin, Mail, Instagram } from "lucide-react";
 
 const footerLinks = [
@@ -33,19 +32,15 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <Link href="/" className="flex items-center gap-3 mb-5">
-              <div className="relative w-10 h-10 shrink-0">
-                <Image
-                  src="/images/mbasa-logo.png"
-                  alt="MBADTSA Logo"
-                  fill
-                  className="object-contain"
-                  sizes="40px"
-                />
+              <div className="w-10 h-10 shrink-0 rounded-md border border-white/20 bg-white/5 flex items-center justify-center">
+                <span className="font-[family-name:var(--font-baskerville)] font-semibold text-[9px] tracking-tight">
+                  MBA<span className="text-[#89cff0]">DTSA</span>
+                </span>
               </div>
               <div className="flex flex-col leading-none">
                 <span className="font-[family-name:var(--font-baskerville)] font-semibold text-lg">
                   <span className="text-white">MBA</span>
-                  <span className="text-[#89cff0]">SA</span>
+                  <span className="text-[#89cff0]">DTSA</span>
                 </span>
                 <span className="text-white/40 text-[10px] tracking-widest uppercase">
                   MBA Student Association

@@ -48,17 +48,15 @@ export default function Home() {
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-16 w-full pt-36 pb-24">
 
           {/*
-           * Figma: "MBABA Logo White & Blue 1" — 494×177px image
-           * white MBA + sky-blue SA, shown large in the hero
+           * Text wordmark to ensure branding renders as MBADTSA in all environments.
            */}
-          <div className="relative mb-8" style={{ width: 247, height: 89 }}>
-            <Image
-              src="/images/mbasa-logo.png"
-              alt="MBADTSA"
-              fill
-              className="object-contain object-left"
-              sizes="247px"
-            />
+          <div className="mb-8 leading-none">
+            <h1 className="font-[family-name:var(--font-baskerville)] font-semibold text-white text-[clamp(2.3rem,8vw,5.1rem)] tracking-[-0.06em]">
+              MBA<span className="text-[#89cff0]">DTSA</span>
+            </h1>
+            <p className="mt-2 text-[#89cff0]/75 text-xs sm:text-sm uppercase tracking-[0.28em] font-semibold font-[family-name:var(--font-archivo)]">
+              MBA Digital &amp; Tech Student Association
+            </p>
           </div>
 
           {/*

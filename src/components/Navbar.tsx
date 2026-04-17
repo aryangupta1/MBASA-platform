@@ -34,24 +34,18 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white dark:bg-[#003152] border-b border-black/5 dark:border-white/10 transition-colors duration-200">
       <nav className="max-w-7xl mx-auto px-6 lg:px-10 h-[72px] flex items-center justify-between gap-6">
 
-        {/* Logo
-            Light mode: dark blue+sky logo (mbasa-logo-nav.png)
-            Dark mode:  white+sky logo (mbasa-logo.png)  */}
+        {/* Logo wordmark */}
         <Link href="/" className="flex items-center shrink-0">
           {mounted ? (
-            <div className="relative h-9 w-[108px]">
-              <Image
-                src={isDark ? "/images/mbasa-logo.png" : "/images/mbasa-logo-nav.png"}
-                alt="MBADTSA"
-                fill
-                priority
-                className="object-contain object-left"
-                sizes="108px"
-              />
+            <div className="leading-none">
+              <span className="font-[family-name:var(--font-baskerville)] font-semibold text-xl tracking-[-0.05em]">
+                <span className={isDark ? "text-white" : "text-[#003152]"}>MBA</span>
+                <span className="text-[#89cff0]">DTSA</span>
+              </span>
             </div>
           ) : (
             /* SSR placeholder — same size, no flash */
-            <div className="h-9 w-[108px]" />
+            <div className="h-7 w-[90px]" />
           )}
         </Link>
 
