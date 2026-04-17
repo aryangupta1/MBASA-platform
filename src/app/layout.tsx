@@ -25,24 +25,24 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://mbasa.vercel.app";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "MBASA — MBA Student Association",
-    template: "%s | MBASA",
+    default: "MBADTSA — MBA Student Association",
+    template: "%s | MBADTSA",
   },
   description:
     "The one-stop hub for student comms, connection, and opportunities. The MBA Digital & Tech Student Association — connecting the brightest minds of the future.",
-  keywords: ["MBA Student Association", "MBASA", "MBA Digital Tech", "USYD MBA"],
+  keywords: ["MBA Student Association", "MBADTSA", "MBA Digital Tech", "USYD MBA"],
   openGraph: {
     type: "website",
     locale: "en_AU",
     url: siteUrl,
-    siteName: "MBASA",
-    title: "MBASA — MBA Student Association",
+    siteName: "MBADTSA",
+    title: "MBADTSA — MBA Student Association",
     description: "The one-stop hub for student comms, connection, and opportunities.",
-    images: [{ url: "/images/hero-bg.jpg", width: 1200, height: 630, alt: "MBASA" }],
+    images: [{ url: "/images/hero-bg.jpg", width: 1200, height: 630, alt: "MBADTSA" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "MBASA — MBA Student Association",
+    title: "MBADTSA — MBA Student Association",
     description: "The one-stop hub for student comms, connection, and opportunities.",
     images: ["/images/hero-bg.jpg"],
   },

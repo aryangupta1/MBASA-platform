@@ -7,7 +7,7 @@ const tiers = [
     name: "Community Partner",
     tagline: "Build brand awareness",
     perks: [
-      "Logo on MBASA website",
+      "Logo on MBADTSA website",
       "Social media mention",
       "Access to member events",
       "Newsletter feature",
@@ -51,7 +51,7 @@ export default function Partners() {
             Partners
           </p>
           <h1 className="font-[family-name:var(--font-baskerville)] font-semibold text-white text-5xl sm:text-6xl tracking-[-0.04em] leading-tight mb-6">
-            Partner with <span className="text-[#89cff0]">MBASA.</span>
+            Partner with <span className="text-[#89cff0]">MBADTSA.</span>
           </h1>
           <p className="text-white/60 text-lg max-w-xl leading-relaxed font-[family-name:var(--font-archivo)]">
             Access a diverse, elite talent pool of MBA candidates at the intersection of business, technology, and innovation.
@@ -64,12 +64,12 @@ export default function Partners() {
         <div className="max-w-7xl mx-auto px-6 lg:px-10">
           <div className="text-center mb-14">
             <p className="text-[#003152]/50 text-xs uppercase tracking-[0.2em] font-semibold mb-3 font-[family-name:var(--font-archivo)]">The value</p>
-            <h2 className="font-[family-name:var(--font-baskerville)] font-semibold text-[#003152] text-4xl sm:text-5xl tracking-[-0.04em]">Why partner with MBASA?</h2>
+            <h2 className="font-[family-name:var(--font-baskerville)] font-semibold text-[#003152] text-4xl sm:text-5xl tracking-[-0.04em]">Why partner with MBADTSA?</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               { title: "Elite talent pipeline", desc: "Direct access to high-calibre MBA candidates with deep expertise in digital transformation, strategy, and innovation." },
-              { title: "Authentic engagement", desc: "MBASA is student-led — our partnerships are genuine, purposeful, and visible to a community that trusts our curation." },
+              { title: "Authentic engagement", desc: "MBADTSA is student-led — our partnerships are genuine, purposeful, and visible to a community that trusts our curation." },
               { title: "Scalable reach", desc: "Our platform is built to grow. Partner once, benefit across multiple cohorts, programs, and campus channels." },
             ].map(({ title, desc }) => (
               <div key={title} className="rounded-2xl bg-white border border-[#003152]/10 p-8 hover:border-[#89cff0] transition-colors">
